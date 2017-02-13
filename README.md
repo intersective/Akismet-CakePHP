@@ -1,4 +1,4 @@
-Akismet-CakePHP [![Build Status](http://coryjthompson.com:8080/buildStatus/icon?job=Akismet-CakePHP)](http://coryjthompson.com:8080/job/Akismet-CakePHP/)
+Akismet-CakePHP
 ===============
 
 
@@ -22,7 +22,30 @@ Requirements
 
 Setup
 ==============
-Install
+Install Composer
+----------
+Add to a repositories section of your composer.json file:
+ ```
+	"repositories": [
+	        ...
+		{
+			"type": "git",
+			"url": "https://github.com/intersective/Akismet-CakePHP.git"
+		}
+		...
+	]
+```
+
+Then:
+```
+    "require": {
+    	... 
+        "coryjthompson/askimet": "dev-master",
+	...
+     }
+```
+
+Install Manually
 ----------
 To install the plugin, simply copy/clone the contents of this repo into your app/Plugin directory. 
 	
