@@ -13,9 +13,11 @@ class AkismetComponent extends Component {
 	private $__akismetObj;
 
 	public function initialize(Controller $controller) {
-		Configure::load('Akismet.config');
 		$settings = Configure::read('akismet');
-
+		if (empty($settings)) {
+			Configure::load('Akismet.config');
+			$settings = Configure::read('akismet');
+		}		
 		$this->__akismetObj = new Akismet($settings['key'], $settings['blog']);
 	}
 
