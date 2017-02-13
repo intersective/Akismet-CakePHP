@@ -1,0 +1,9 @@
+
+{
+    "name": "coryjthompson/askimet",
+    "description": "Askimet plugin for CakePHP - updated to work with composer",
+    "type": "cakephp-plugin",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
