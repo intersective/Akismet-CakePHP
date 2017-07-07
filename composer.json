@@ -1,7 +1,7 @@
 
 {
-    "name": "coryjthompson/akismet",
-    "description": "Akismet plugin for CakePHP - updated to work with composer",
+    "name": "intersective/akismet",
+    "description": "Akismet plugin for CakePHP - updated to work with composer, forked from coryjthompson/akismet",
     "type": "cakephp-plugin",
     "require": {
         "composer/installers": "~1.0"
